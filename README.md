@@ -7,8 +7,10 @@
 ## Dependencies
 - Python3 with following packages
   - numpy
+  - scipy
   - pandas
   - copy
+  - rpy2 (optional)
 ## Installation
 No installation needed.
 ## Usage
