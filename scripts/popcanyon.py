@@ -344,23 +344,6 @@ def main(args=None):
       #df_chs_write_dmr_bed.iloc[:,[0,6,7,4,3,5,6,7,8]].to_csv('{}.dmr.bed'.format(args.outdir + ibed_name),sep='\t', index=False,header=['# chr', 'chromStart', 'chromEnd', 'name','score', 'strand', 'thickStart', 'thickEnd', 'itemRgb'])
       df_chs_write_dmr_bed.to_csv('{}.dmr.bed'.format(args.outdir + ibed_name),sep='\t', index=False)
 
-
-
-
-
 if __name__ == '__main__':
   args = process_args()
-  # args = process_args('UMR -F ./data/liver_n_1.txt ./data/liver_n_2.txt ./data/liver_n_3.txt ./data/liver_n_4.txt ./data/liver_n_5.txt ./data/liver_n_6.txt -O liver_normal --umr_fdr=0.01 --min_sites=5'.split())
-
-  # args = process_args('UMR -F ./data/liver_t_1.txt ./data/liver_t_2.txt ./data/liver_t_3.txt ./data/liver_t_4.txt ./data/liver_t_5.txt ./data/liver_t_6.txt -O liver_tumor --umr_fdr=0.01 --min_sites=5'.split())
-
-  #args = process_args('UMR -F ./data/lung_n_1.txt ./data/lung_n_2.txt ./data/lung_n_3.txt ./data/lung_n_4.txt ./data/lung_n_5.txt ./data/lung_n_6.txt -O lung_normal --umr_fdr 0.05 --min_sites 5'.split())
-
-  # args = process_args('UMR -F ./data/lung_t_1.txt ./data/lung_t_2.txt ./data/lung_t_3.txt ./data/lung_t_4.txt ./data/lung_t_5.txt ./data/lung_t_6.txt -O lung_tumor --umr_fdr 0.01 --min_sites 5'.split())
-
-  # args = process_args('DMR -F ./data/liver_t_1.txt ./data/liver_t_2.txt ./data/liver_t_3.txt ./data/liver_t_4.txt ./data/liver_t_5.txt ./data/liver_t_6.txt ./data/liver_n_1.txt ./data/liver_n_2.txt ./data/liver_n_3.txt ./data/liver_n_4.txt ./data/liver_n_5.txt ./data/liver_n_6.txt -L treat treat treat treat treat treat ctrl ctrl ctrl ctrl ctrl ctrl --bed liver_normalall.umrv7.bed liver_tumorall.umrv7 -O liver_diff'.split())
-
-  # args = process_args('DMR -F ./data/lung_t_1.txt ./data/lung_t_2.txt ./data/lung_t_3.txt ./data/lung_t_4.txt ./data/lung_t_5.txt ./data/lung_t_6.txt ./data/lung_n_1.txt ./data/lung_n_2.txt ./data/lung_n_3.txt ./data/lung_n_4.txt ./data/lung_n_5.txt ./data/lung_n_6.txt -L treat treat treat treat treat treat ctrl ctrl ctrl ctrl ctrl ctrl --bed lung_tumorall.umrv7.bed -O lung_diff'.split())
-
-
   main(args)
