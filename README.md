@@ -3,6 +3,7 @@
 ## Authors
 - Xiaodong Cui (Xiaodong.Cui@bcm.edu)
 - Jiejun Shi (jiejuns@uci.edu)
+- Jianfeng Xu (jianfenx@bcm.edu)
 - Wei Li (wei.li@uci.edu)
 ## Dependencies
 - Python3 with following packages
@@ -21,6 +22,6 @@ There are two executable scripts: `./scripts/popcanyon.py` and `./scripts/MergeU
 	$ python ./scripts/popcanyon.py UMR -h
 	$ python ./scripts/popcanyon.py DMR -h
 
-`./scripts/MergeUMR.py` is a downstream tool for UMR calling. It is used to merge the adjacent UMR if they meet specified threshold. A detailed sub-commands help is available by typing:
+`./scripts/MergeUMR.py` is a downstream tool of UMR calling. It is used to merge the adjacent UMR if they meet specified threshold. A detailed sub-commands help is available by typing:
 
 	$ python ./scripts/MergeUMR.py MergeUMR -h
