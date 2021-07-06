@@ -19,8 +19,8 @@ There are two executable scripts: `./scripts/popcanyon.py` and `./scripts/MergeU
 
 `./scripts/popcanyon.py` includes the main functions for UMR and DMR calling. A detailed sub-commands help is available by typing:
 
-	$ python ./scripts/popcanyon.py UMR -h
-```bash	
+```
+$ python ./scripts/popcanyon.py UMR -h
 usage: popcanyon UMR file1.txt file2.txt
 
 Required arguments:
