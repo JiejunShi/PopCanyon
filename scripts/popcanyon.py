@@ -159,8 +159,7 @@ def conditional_args(case='UMR'):
 def process_args(args=None):
   args = parse_arguments().parse_args(args)
   # add suffix to the final output filename
-  if len(args.suffix) > 0:
-    args.suffix = '.' + args.suffix
+  #if len(args.suffix) > 0:args.suffix = 'all.' + args.suffix
 
   # popcanyon will only read 5 columns of the input files
   if len(args.use_cols) != 5:
