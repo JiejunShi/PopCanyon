@@ -1,5 +1,5 @@
 # PopCanyon
-**PopCanyon** discovers the under-methylated regions (UMRs) by solving Beta-binomial HMM on raw counts from multiple methylation files. In addition, based on previous detected UMRs, it can identify the differential methylated regions (DMRs) using Beta-binomial likelihood ratio test.
+**PopCanyon** discovers the under-methylated regions (UMRs) by solving Beta-binomial HMM on raw counts from multiple methylation files. In addition, it can identify the differential methylated regions (DMRs) using Beta-binomial likelihood ratio test.
 ## Authors
 - Xiaodong Cui (Xiaodong.Cui@bcm.edu)
 - Jiejun Shi (jiejuns@uci.edu)
